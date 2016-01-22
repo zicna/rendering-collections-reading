@@ -1,3 +1,3 @@
 <% @posts.each do |post| %>
-  <div><%= post.title %></div>
+  <%= render :partial => "post", {:locals => {:post => post}} %>
 <% end %>
