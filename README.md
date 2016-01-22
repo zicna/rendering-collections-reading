@@ -24,13 +24,13 @@ Rails offers a great way to render a collection using a partial by passing the c
 ```
 
 Our code is tighter and both more abstract and more clear.
-Another even more abstract method Rails gives us to do this is passing the array directly to the render method.
+Another even more abstract method Rails gives us to do this is passing an array directly to the render method.
 
 ```erb
 <%= render @posts %>
 ```
 
-This is a bit more abstract.  Under the hood Rails uses the convention that you will have a partial with the name of the models in the collection.  Rails will even render a collection of heterogeneous models ([customer, order, customer]) calling the correct partial for each one.
+This approach is a bit more abstract.  Under the hood Rails uses the convention that you will have a partial with the name of the models in the collection.  Rails will even render a collection of heterogeneous models ([customer, order, customer]) calling the correct partial for each one.
 
 ### Empty Collections
 
