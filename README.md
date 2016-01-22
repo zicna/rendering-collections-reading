@@ -20,7 +20,7 @@ Currently, our `posts#index` view is manually rendering the partial in a loop.
 Rails offers a great way to render a collection using a partial by passing the collection option to the render method.
 
 ```erb
-<%= render :partial => "post", collection: @posts %>
+<%= render :partial => "post", :collection => @posts %>
 ```
 
 Our code is tighter and both more abstract and more clear.
