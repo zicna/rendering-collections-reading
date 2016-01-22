@@ -1,8 +1,8 @@
 ## Objectives
 
  1. use the `collection` keyword with their partials
- 2. use the just pass in the array of instances method
- 3. Understand that the render method returns nil and do a `||`
+ 2. use the just pass in the array of instances method `<%= render @products %>`
+ 3. Understand that the render method returns nil and do a `||`. `<%= render(@products) || "There are no products available." %>`
  
 ## Instructions
 
