@@ -1,8 +1,8 @@
 ## Objectives
 
  1. Use the `collection` keyword with their partials
- 2. Use the just pass in the array of instances method `<%= render @products %>`
- 3. Understand that the render method returns nil and do a `||`. `<%= render(@products) || "There are no products available." %>`
+ 2. Pass a collection to the render method 
+ 3. Handle empty collections
 
 ## Overview
 Up until now our only way to render collections was somewhat manually.  We could iterate over an array and call the partial for each object in the array.  Let's see how rails can abstract this into a nicer syntax.
