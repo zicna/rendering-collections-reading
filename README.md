@@ -5,7 +5,7 @@
  3. Handle empty collections
 
 ## Overview
-Up until now our only way to render collections was somewhat manually.  We could iterate over an array and call the partial for each object in the array.  Let's see how rails can abstract this into a nicer syntax.
+Up until now our only way to render collections was somewhat manually.  We could iterate over an array and render the partial for each object in the array.  Let's see how rails can abstract this into a nicer syntax.
 
 ## Lesson
 
