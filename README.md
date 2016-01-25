@@ -1,6 +1,6 @@
 ## Objectives
 
- 1. Use the `collection` keyword with their partials
+ 1. Use the `collection` keyword withpartials
  2. Pass a collection to the render method 
  3. Handle empty collections
 
