@@ -1,4 +1,6 @@
 class PostsController < ApplicationController
+	before_action :set_sample, only: [:show, :edit, :update]
+
 	def index
 		@posts = Post.all
 	end
@@ -12,9 +14,7 @@ class PostsController < ApplicationController
 	end
 
 	def create
-	  @post = Post.new
-	  @post.title = params[:title]
-	  @post.description = params[:description]
+	  @post = Post.create(post_params)
 	  @post.save
 	  redirect_to post_path(@post)
 	end
@@ -25,7 +25,18 @@ class PostsController < ApplicationController
 
 	def update
 	  @post = Post.find(params[:id])
-	  @post.update(title: params[:title], description: params[:description])
+	  @post.update(sample_params)
 	  redirect_to post_path(@post)
 	end
+
+private
+  # Use callbacks to share common setup or constraints between actions.
+  def set_post
+    @post = Post.find(params[:id])
+  end
+
+  # Never trust parameters from the scary internet, only allow the white list through.
+  def post_params
+    params[:post]
+  end
 end
