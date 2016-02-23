@@ -9,6 +9,8 @@ Up until now our only way to render collections was somewhat manually.  We could
 
 ## Lesson
 
+Make sure you run `rake db:seed` before you test out the app in your browser. Because this lesson focuses on using the `collection` keyword with partials, we've hard-coded in the connection between authors and posts. In the posts controller create action, we link the newly created post with the first author in the database.
+
 ### Rendering Collections
 Currently, our `posts#index` view is manually rendering the partial in a loop.
 ```erb
