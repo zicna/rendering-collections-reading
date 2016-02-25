@@ -37,10 +37,12 @@ This approach is a bit more abstract.  Under the hood Rails uses the convention 
 What happens if the collection you pass to your render call is empty?  If you don't handle this exception the render method will return nil and nothing will appear on the screen.  A useful trick is to use the `||` operator to print something to the screen to alert the user to this.
 
 ```erb
-<%= render @posts || "There are no blog posts!" %>
+<%= render(@posts) || "There are no blog posts!" %>
 ```
 
 ##Conclusion
 As always, Rails has tried to abstract commonly used functionality into more terse and implicit code.  Experiment with these tricks in the upcoming lab.
 
 <p data-visibility='hidden'>View <a href='https://learn.co/lessons/rendering-collections-reading' title='Objectives'>Objectives</a> on Learn.co and start learning to code for free.</p>
+
+<p data-visibility='hidden'>View <a href='https://learn.co/lessons/rendering-collections-reading'>Rendering Collections </a> on Learn.co and start learning to code for free.</p>
