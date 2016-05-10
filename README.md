@@ -42,6 +42,8 @@ What happens if the collection you pass to your render call is empty?  If you do
 <%= render(@posts) || "There are no blog posts!" %>
 ```
 
+**Note:** When dealing with an empty collection, you'll *need to use `()` to wrap that collection*.
+
 ##Conclusion
 As always, Rails has tried to abstract commonly used functionality into more terse and implicit code.  Experiment with these tricks in the upcoming lab.
 
