@@ -47,6 +47,8 @@ What happens if the collection you pass to your render call is empty?  If you do
 ##Conclusion
 As always, Rails has tried to abstract commonly used functionality into more terse and implicit code.  Experiment with these tricks in the upcoming lab.
 
-<p data-visibility='hidden'>View <a href='https://learn.co/lessons/rendering-collections-reading' title='Objectives'>Objectives</a> on Learn.co and start learning to code for free.</p>
+## Video Review 
+
+* [Partials and Collections](https://github.com/learn-co-curriculum/rails-video-review-partials-and-collections)
 
 <p data-visibility='hidden'>View <a href='https://learn.co/lessons/rendering-collections-reading'>Rendering Collections </a> on Learn.co and start learning to code for free.</p>
