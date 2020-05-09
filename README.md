@@ -51,4 +51,5 @@ As always, Rails has tried to abstract commonly used functionality into more ter
 
 * [Partials and Collections](https://www.youtube.com/watch?v=XpthyOc767U)
 
+
 <p data-visibility='hidden'>View <a href='https://learn.co/lessons/rendering-collections-reading'>Rendering Collections </a> on Learn.co and start learning to code for free.</p>
