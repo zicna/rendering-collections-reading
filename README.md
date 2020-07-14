@@ -1,3 +1,5 @@
+# Rendering Collections
+
 ## Objectives
 
  1. Use the `collection` keyword with partials
