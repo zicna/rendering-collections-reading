@@ -13,6 +13,7 @@ Make sure you run `rake db:seed` before you test out the app in your browser. Be
 
 ### Rendering Collections
 Currently, our `posts#index` view is manually rendering the partial in a loop.
+
 ```erb
 <% @posts.each do |post| %>
   <%= render :partial => "post", {:locals => {:post => post}} %>
